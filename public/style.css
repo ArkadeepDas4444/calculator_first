@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 120px 80px 80px 80px 80px 80px;
+    justify-content: center;
+}
+#input{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+#zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
