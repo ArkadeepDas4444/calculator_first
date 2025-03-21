@@ -14,3 +14,9 @@ function operate(n1,op,n2)
         return 0;
     }
 }
+const btns = document.querySelectorAll(".keyBtn");
+btns.forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+        document.getElementById("disp").value = document.getElementById("disp").value + btn.textContent;
+    });
+});
